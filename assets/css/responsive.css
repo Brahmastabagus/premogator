@@ -1,0 +1,67 @@
+@media screen and (max-width: 640px){
+	.bg-full{
+		background: #fff;
+		min-height: 500px;
+	}
+	.bg-footer{
+		background: url('../img/footer.jpg') repeat right;
+	}
+	.deskripsi-header{
+		position: relative;
+		top: 150px;
+		width: 100%;
+	}
+	.navbar-nav{
+		display: none;
+	}
+}
+@media screen and (max-width: 790px){
+	.bg-full{
+		min-height: 400px;
+		background: url('../img/header.png') repeat left;
+	}
+	.bg-full-blog{
+		min-height: 600px;
+		background: url('../img/header.png') no-repeat left;
+	}
+	.deskripsi-header{
+		position: relative;
+		top: 100px;
+		width: 80%;
+	}
+	.form{
+		margin-top: 50px;
+		width: 100%;
+	}
+}
+/*bagus*/
+@media screen and (max-width: 1000px) {
+	.grid-container_b {
+		grid-template-columns: 40% 40%;
+	}
+}
+
+@media screen and (max-width: 1380px) {
+	.address_b {
+		grid-template-columns: 80%;
+		margin-bottom: 0;
+	}
+	.address_b .img img {
+		display: block;
+		margin: 0 auto;
+		width: 50%;
+	}
+	.address_b p,.address_b h2 {
+		text-align: center;
+		position: relative;
+		bottom: 80px;
+	}
+}
+
+@media screen and (max-width: 1360px) {
+	.contact_b {
+		grid-template-columns: 80%;
+		text-align: center;
+		display: block;
+	}
+}
